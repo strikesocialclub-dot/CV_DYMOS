@@ -1,0 +1,47 @@
+.CV {
+  margin: 90px;
+  width: 1120px;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "menu content right"
+    "footer footer footer";
+  font-family: sans-serif;
+  grid-template-columns: 260px 450px 400px 300px;
+  gap: 5px;
+  border-radius: 7px;
+  border-style: solid;
+  background-color: green;
+}
+.CV div {
+  background-color: white;
+}
+.header {
+  grid-area: header;
+  text-align: center;
+  padding: 10px;
+  font-size: 19px;
+}
+.menu {
+  grid-area: menu;
+  padding: 0;
+}
+img {
+ height: 300px;
+ width: 260px;
+}
+.right {
+ grid-area: right;
+ padding: 10px;
+ font-size: 17px;
+}
+.content {
+  grid-area: content;
+  padding: 10px;
+  font-size: 18px;
+}
+.footer {
+  grid-area: footer;
+  text-align: center;
+  padding: 10px;  
+}
